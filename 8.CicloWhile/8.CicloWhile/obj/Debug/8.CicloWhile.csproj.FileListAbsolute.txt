@@ -1,0 +1,7 @@
+C:\Users\B09S104est\Documents\DanielaArias\FundamentosProgramacionMJ8DanielaArias\8.CicloWhile\8.CicloWhile\bin\Debug\8.CicloWhile.exe.config
+C:\Users\B09S104est\Documents\DanielaArias\FundamentosProgramacionMJ8DanielaArias\8.CicloWhile\8.CicloWhile\bin\Debug\8.CicloWhile.exe
+C:\Users\B09S104est\Documents\DanielaArias\FundamentosProgramacionMJ8DanielaArias\8.CicloWhile\8.CicloWhile\bin\Debug\8.CicloWhile.pdb
+C:\Users\B09S104est\Documents\DanielaArias\FundamentosProgramacionMJ8DanielaArias\8.CicloWhile\8.CicloWhile\obj\Debug\8.CicloWhile.csproj.AssemblyReference.cache
+C:\Users\B09S104est\Documents\DanielaArias\FundamentosProgramacionMJ8DanielaArias\8.CicloWhile\8.CicloWhile\obj\Debug\8.CicloWhile.csproj.CoreCompileInputs.cache
+C:\Users\B09S104est\Documents\DanielaArias\FundamentosProgramacionMJ8DanielaArias\8.CicloWhile\8.CicloWhile\obj\Debug\8.CicloWhile.exe
+C:\Users\B09S104est\Documents\DanielaArias\FundamentosProgramacionMJ8DanielaArias\8.CicloWhile\8.CicloWhile\obj\Debug\8.CicloWhile.pdb
