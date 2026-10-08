@@ -1,0 +1,7 @@
+C:\Users\Usuario\Dropbox\UPB\Programacion\Fundamentos_Programacion_MJ8\11.2.Ciclos_Do_While\11.2.Ciclos_Do_While\bin\Debug\11.2.Ciclos_Do_While.exe.config
+C:\Users\Usuario\Dropbox\UPB\Programacion\Fundamentos_Programacion_MJ8\11.2.Ciclos_Do_While\11.2.Ciclos_Do_While\bin\Debug\11.2.Ciclos_Do_While.exe
+C:\Users\Usuario\Dropbox\UPB\Programacion\Fundamentos_Programacion_MJ8\11.2.Ciclos_Do_While\11.2.Ciclos_Do_While\bin\Debug\11.2.Ciclos_Do_While.pdb
+C:\Users\Usuario\Dropbox\UPB\Programacion\Fundamentos_Programacion_MJ8\11.2.Ciclos_Do_While\11.2.Ciclos_Do_While\obj\Debug\11.2.Ciclos_Do_While.csproj.AssemblyReference.cache
+C:\Users\Usuario\Dropbox\UPB\Programacion\Fundamentos_Programacion_MJ8\11.2.Ciclos_Do_While\11.2.Ciclos_Do_While\obj\Debug\11.2.Ciclos_Do_While.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Dropbox\UPB\Programacion\Fundamentos_Programacion_MJ8\11.2.Ciclos_Do_While\11.2.Ciclos_Do_While\obj\Debug\11.2.Ciclos_Do_While.exe
+C:\Users\Usuario\Dropbox\UPB\Programacion\Fundamentos_Programacion_MJ8\11.2.Ciclos_Do_While\11.2.Ciclos_Do_While\obj\Debug\11.2.Ciclos_Do_While.pdb
