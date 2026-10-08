@@ -1,0 +1,2 @@
+C:\Users\B09S104est\Documents\DanielaArias\FundamentosProgramacionMJ8DanielaArias\19.Programacion Modular\19.Programacion Modular\obj\Debug\19.Programacion Modular.csproj.AssemblyReference.cache
+C:\Users\B09S104est\Documents\DanielaArias\FundamentosProgramacionMJ8DanielaArias\19.Programacion Modular\19.Programacion Modular\obj\Debug\19.Programacion Modular.csproj.CoreCompileInputs.cache
