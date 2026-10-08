@@ -1,0 +1,7 @@
+C:\Users\Azura\Dropbox\UPB\Programacion\Fundamentos_Programacion_MJ8\13.Ciclos_For\13.Ciclos_For\bin\Debug\13.Ciclos_For.exe.config
+C:\Users\Azura\Dropbox\UPB\Programacion\Fundamentos_Programacion_MJ8\13.Ciclos_For\13.Ciclos_For\bin\Debug\13.Ciclos_For.exe
+C:\Users\Azura\Dropbox\UPB\Programacion\Fundamentos_Programacion_MJ8\13.Ciclos_For\13.Ciclos_For\bin\Debug\13.Ciclos_For.pdb
+C:\Users\Azura\Dropbox\UPB\Programacion\Fundamentos_Programacion_MJ8\13.Ciclos_For\13.Ciclos_For\obj\Debug\13.Ciclos_For.csproj.AssemblyReference.cache
+C:\Users\Azura\Dropbox\UPB\Programacion\Fundamentos_Programacion_MJ8\13.Ciclos_For\13.Ciclos_For\obj\Debug\13.Ciclos_For.csproj.CoreCompileInputs.cache
+C:\Users\Azura\Dropbox\UPB\Programacion\Fundamentos_Programacion_MJ8\13.Ciclos_For\13.Ciclos_For\obj\Debug\13.Ciclos_For.exe
+C:\Users\Azura\Dropbox\UPB\Programacion\Fundamentos_Programacion_MJ8\13.Ciclos_For\13.Ciclos_For\obj\Debug\13.Ciclos_For.pdb
