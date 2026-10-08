@@ -1,0 +1,7 @@
+C:\Users\Azura\source\repos\12.Do_while_ejercicio\12.Do_while_ejercicio\bin\Debug\12.Do_while_ejercicio.exe.config
+C:\Users\Azura\source\repos\12.Do_while_ejercicio\12.Do_while_ejercicio\bin\Debug\12.Do_while_ejercicio.exe
+C:\Users\Azura\source\repos\12.Do_while_ejercicio\12.Do_while_ejercicio\bin\Debug\12.Do_while_ejercicio.pdb
+C:\Users\Azura\source\repos\12.Do_while_ejercicio\12.Do_while_ejercicio\obj\Debug\12.Do_while_ejercicio.csproj.AssemblyReference.cache
+C:\Users\Azura\source\repos\12.Do_while_ejercicio\12.Do_while_ejercicio\obj\Debug\12.Do_while_ejercicio.csproj.CoreCompileInputs.cache
+C:\Users\Azura\source\repos\12.Do_while_ejercicio\12.Do_while_ejercicio\obj\Debug\12.Do_while_ejercicio.exe
+C:\Users\Azura\source\repos\12.Do_while_ejercicio\12.Do_while_ejercicio\obj\Debug\12.Do_while_ejercicio.pdb
