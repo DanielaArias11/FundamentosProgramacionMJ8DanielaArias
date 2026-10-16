@@ -2,7 +2,7 @@
 using System.Runtime.InteropServices;
 
 
-namespace _8.CicloWhile
+namespace _8.CicloWhileEjercicio
 {
     internal class Program
     {
