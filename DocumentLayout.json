@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\isaac\\OneDrive\\Desktop\\isaacdiaz\\fundamentosdeprogramacionMJ8Isaacdiaz\\2.ConstantesTiposDatosoOperadores\\16.matrices\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9EC091-5A55-491D-BA6D-E8CD87E39682}|16.matrices\\16.matrices.csproj|c:\\users\\isaac\\onedrive\\desktop\\isaacdiaz\\fundamentosdeprogramacionmj8isaacdiaz\\2.constantestiposdatosooperadores\\16.matrices\\16.matrices\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F9EC091-5A55-491D-BA6D-E8CD87E39682}|16.matrices\\16.matrices.csproj|solutionrelative:16.matrices\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\isaac\\OneDrive\\Desktop\\isaacdiaz\\fundamentosdeprogramacionMJ8Isaacdiaz\\2.ConstantesTiposDatosoOperadores\\16.matrices\\16.matrices\\Program.cs",
+              "RelativeDocumentMoniker": "16.matrices\\Program.cs",
+              "ToolTip": "C:\\Users\\isaac\\OneDrive\\Desktop\\isaacdiaz\\fundamentosdeprogramacionMJ8Isaacdiaz\\2.ConstantesTiposDatosoOperadores\\16.matrices\\16.matrices\\Program.cs",
+              "RelativeToolTip": "16.matrices\\Program.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAQwGgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T13:16:18.028Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

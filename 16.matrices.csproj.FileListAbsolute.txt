@@ -1,0 +1,7 @@
+C:\Users\isaac\OneDrive\Desktop\isaacdiaz\fundamentosdeprogramacionMJ8Isaacdiaz\2.ConstantesTiposDatosoOperadores\16.matrices\16.matrices\bin\Debug\16.matrices.exe.config
+C:\Users\isaac\OneDrive\Desktop\isaacdiaz\fundamentosdeprogramacionMJ8Isaacdiaz\2.ConstantesTiposDatosoOperadores\16.matrices\16.matrices\bin\Debug\16.matrices.exe
+C:\Users\isaac\OneDrive\Desktop\isaacdiaz\fundamentosdeprogramacionMJ8Isaacdiaz\2.ConstantesTiposDatosoOperadores\16.matrices\16.matrices\bin\Debug\16.matrices.pdb
+C:\Users\isaac\OneDrive\Desktop\isaacdiaz\fundamentosdeprogramacionMJ8Isaacdiaz\2.ConstantesTiposDatosoOperadores\16.matrices\16.matrices\obj\Debug\16.matrices.csproj.AssemblyReference.cache
+C:\Users\isaac\OneDrive\Desktop\isaacdiaz\fundamentosdeprogramacionMJ8Isaacdiaz\2.ConstantesTiposDatosoOperadores\16.matrices\16.matrices\obj\Debug\16.matrices.csproj.CoreCompileInputs.cache
+C:\Users\isaac\OneDrive\Desktop\isaacdiaz\fundamentosdeprogramacionMJ8Isaacdiaz\2.ConstantesTiposDatosoOperadores\16.matrices\16.matrices\obj\Debug\16.matrices.exe
+C:\Users\isaac\OneDrive\Desktop\isaacdiaz\fundamentosdeprogramacionMJ8Isaacdiaz\2.ConstantesTiposDatosoOperadores\16.matrices\16.matrices\obj\Debug\16.matrices.pdb
