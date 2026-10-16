@@ -1,0 +1,310 @@
+//EJERCICIO 1. PROMEDIO DE CALIFICACIONES
+
+double suma = 0;
+int cantidad = 0;
+string continuar;
+
+do
+{
+    Console.Write("Ingrese una calificación: ");
+    if (double.TryParse(Console.ReadLine(), out double nota))
+    {
+        suma += nota;
+        cantidad++;
+    }
+    else
+    {
+        Console.WriteLine("Entrada no válida.");
+    }
+
+    Console.Write("¿Desea ingresar otra calificación? (s/n): ");
+    continuar = (Console.ReadLine() ?? "n").Trim().ToLower();
+
+} while (continuar == "s");
+
+if (cantidad > 0)
+    Console.WriteLine($"El promedio es: {suma / cantidad:F2}");
+else
+    Console.WriteLine("No se ingresaron calificaciones.");
+
+
+// EJERCICIO 2. MOSTRAR LOS DIVISORES DE UN NÚMERO
+
+Console.Write("Ingrese un número entero positivo: ");
+
+if (!int.TryParse(Console.ReadLine(), out int numero) || numero <= 0)
+{
+    Console.WriteLine("Debe ingresar un entero positivo.");
+    return;
+}
+
+Console.WriteLine($"Divisores de {numero}:");
+
+for (int divisor = numero; divisor >= 1; divisor--)
+{
+    if (numero % divisor == 0)
+        Console.WriteLine(divisor);
+}
+
+
+//EJERCICIO 3. CALCULAR UNA POTENCIA Y REPETIR HASTA INGRESAR N
+
+string repetir;
+
+do
+{
+    Console.Write("Ingrese la base: ");
+    long baseNum = Convert.ToInt64(Console.ReadLine());
+
+    Console.Write("Ingrese el exponente: ");
+    int exponente = Convert.ToInt32(Console.ReadLine());
+
+    if (baseNum == 0 && exponente < 0)
+    {
+        Console.WriteLine("Cero no puede elevarse a un exponente negativo.");
+    }
+    else
+    {
+        double resultado = 1;
+
+        for (int i = 0; i < Math.Abs(exponente); i++)
+            resultado *= baseNum;
+
+        if (exponente < 0)
+            resultado = 1.0 / resultado;
+
+        Console.WriteLine($"{baseNum}^{exponente} = {resultado}");
+    }
+
+    Console.Write("¿Desea calcular otra potencia? (s/n): ");
+    repetir = (Console.ReadLine() ?? "n").Trim().ToLower();
+
+} while (repetir != "n");
+
+
+//EJERCICIO 4. DETERMINAR SI EL ATLETA ES APTO
+
+double sumaTiempos = 0;
+bool algunaMenor15 = false;
+bool algunaMayor20 = false;
+
+for (int dia = 1; dia <= 10; dia++)
+{
+    Console.Write($"Ingrese el tiempo del día {dia}, en minutos: ");
+    double tiempo = Convert.ToDouble(Console.ReadLine());
+
+    sumaTiempos += tiempo;
+
+    if (tiempo < 15)
+        algunaMenor15 = true;
+
+    if (tiempo > 20)
+        algunaMayor20 = true;
+}
+
+double promedio = sumaTiempos / 10;
+
+Console.WriteLine($"Promedio: {promedio:F2} minutos");
+
+if (!algunaMayor20 && algunaMenor15 && promedio <= 18)
+{
+    Console.WriteLine("El atleta es apto para la competencia.");
+}
+else
+{
+    Console.WriteLine("El atleta no es apto para la competencia.");
+
+    if (algunaMayor20)
+        Console.WriteLine("Hizo al menos una prueba en más de 20 minutos.");
+
+    if (!algunaMenor15)
+        Console.WriteLine("No hizo ninguna prueba en menos de 15 minutos.");
+
+    if (promedio > 18)
+        Console.WriteLine("El promedio supera los 18 minutos.");
+}
+
+
+//EJERCICIO 5. PORCENTAJE DE RESPUESTAS DE LA ENCUESTA
+Se usa f para “a favor”, c para “en contra” y n para “no responde”.
+
+Console.Write("Ingrese la cantidad de personas encuestadas: ");
+int encuestados = Convert.ToInt32(Console.ReadLine());
+
+int favor = 0;
+int contra = 0;
+int noResponde = 0;
+
+for (int i = 1; i <= encuestados; i++)
+{
+    Console.Write($"Respuesta de la persona {i} (f/c/n): ");
+    string respuesta = (Console.ReadLine() ?? "").Trim().ToLower();
+
+    switch (respuesta)
+    {
+        case "f":
+            favor++;
+            break;
+        case "c":
+            contra++;
+            break;
+        case "n":
+            noResponde++;
+            break;
+        default:
+            Console.WriteLine("Respuesta no válida. Intente de nuevo.");
+            i--;
+            break;
+    }
+}
+
+Console.WriteLine($"A favor: {favor} ({favor * 100.0 / encuestados:F2}%)");
+Console.WriteLine($"En contra: {contra} ({contra * 100.0 / encuestados:F2}%)");
+Console.WriteLine($"No responde: {noResponde} ({noResponde * 100.0 / encuestados:F2}%)");
+
+
+//EJERCICIO 6. CONTAR 40 NÚMEROS POSITIVOS, NEGATIVOS Y NEUTROS
+
+int positivos = 0;
+int negativos = 0;
+int neutros = 0;
+
+long sumaPositivos = 0;
+long sumaNegativos = 0;
+
+for (int i = 1; i <= 40; i++)
+{
+    Console.Write($"Ingrese el número {i} de 40: ");
+    int numero = Convert.ToInt32(Console.ReadLine());
+
+    if (numero > 0)
+    {
+        positivos++;
+        sumaPositivos += numero;
+    }
+    else if (numero < 0)
+    {
+        negativos++;
+        sumaNegativos += numero;
+    }
+    else
+    {
+        neutros++;
+    }
+}
+
+Console.WriteLine($"Cantidad de positivos: {positivos}");
+Console.WriteLine($"Suma de positivos: {sumaPositivos}");
+Console.WriteLine($"Cantidad de negativos: {negativos}");
+Console.WriteLine($"Suma de negativos: {sumaNegativos}");
+Console.WriteLine($"Cantidad de ceros: {neutros}");
+
+
+//EJERCICIO 7. PROMEDIO DE PESO Y CANTIDAD POR CATEGORÍA
+El programa solicita la edad y el peso de cada una de las 70 personas.
+
+int ninos = 0, jovenes = 0, adultos = 0, viejos = 0;
+double pesoNinos = 0, pesoJovenes = 0, pesoAdultos = 0, pesoViejos = 0;
+
+for (int i = 1; i <= 70; i++)
+{
+    Console.Write($"Ingrese la edad de la persona {i}: ");
+    int edad = Convert.ToInt32(Console.ReadLine());
+
+    Console.Write($"Ingrese el peso en kg de la persona {i}: ");
+    double peso = Convert.ToDouble(Console.ReadLine());
+
+    if (edad <= 13)
+    {
+        ninos++;
+        pesoNinos += peso;
+    }
+    else if (edad <= 30)
+    {
+        jovenes++;
+        pesoJovenes += peso;
+    }
+    else if (edad <= 60)
+    {
+        adultos++;
+        pesoAdultos += peso;
+    }
+    else
+    {
+        viejos++;
+        pesoViejos += peso;
+    }
+}
+
+Console.WriteLine($"Niños: {ninos}");
+if (ninos > 0)
+    Console.WriteLine($"Promedio de peso de niños: {pesoNinos / ninos:F2} kg");
+
+Console.WriteLine($"Jóvenes: {jovenes}");
+if (jovenes > 0)
+    Console.WriteLine($"Promedio de peso de jóvenes: {pesoJovenes / jovenes:F2} kg");
+
+Console.WriteLine($"Adultos: {adultos}");
+if (adultos > 0)
+    Console.WriteLine($"Promedio de peso de adultos: {pesoAdultos / adultos:F2} kg");
+
+Console.WriteLine($"Viejos: {viejos}");
+if (viejos > 0)
+    Console.WriteLine($"Promedio de peso de viejos: {pesoViejos / viejos:F2} kg");
+
+
+//EJERCICIO 8. CONTAR AUTOS SEGÚN EL COLOR DE LA CALCOMANÍA
+
+Console.Write("Ingrese la cantidad de autos: ");
+int cantidadAutos = Convert.ToInt32(Console.ReadLine());
+
+int amarilla = 0;
+int rosa = 0;
+int roja = 0;
+int verde = 0;
+int azul = 0;
+
+for (int i = 1; i <= cantidadAutos; i++)
+{
+    Console.Write($"Ingrese el último dígito de la placa del auto {i}: ");
+    int digito = Convert.ToInt32(Console.ReadLine());
+
+    switch (digito)
+    {
+        case 1:
+        case 2:
+            amarilla++;
+            break;
+
+        case 3:
+        case 4:
+            rosa++;
+            break;
+
+        case 5:
+        case 6:
+            roja++;
+            break;
+
+        case 7:
+        case 8:
+            verde++;
+            break;
+
+        case 9:
+        case 0:
+            azul++;
+            break;
+
+        default:
+            Console.WriteLine("El dígito debe estar entre 0 y 9.");
+            i--;
+            break;
+    }
+}
+
+Console.WriteLine($"Calcomanía amarilla: {amarilla}");
+Console.WriteLine($"Calcomanía rosa: {rosa}");
+Console.WriteLine($"Calcomanía roja: {roja}");
+Console.WriteLine($"Calcomanía verde: {verde}");
+Console.WriteLine($"Calcomanía azul: {azul}");
